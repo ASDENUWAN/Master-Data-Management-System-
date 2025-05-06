@@ -1,1 +1,2 @@
 # Master-Data-Management-System-
+The Master Data Management System (MDM) is a simple, web-based application built with Laravel and Bootstrap 5. It allows authenticated users to manage master lists of Brands, Categories, and Items, with full CRUD operations, role-based access, search & filters, file uploads, export to CSV/Excel/PDF, and user profile management. Admin users have additional capabilities to view and remove any user.
