@@ -1,0 +1,54 @@
+# Composer dependencies
+/vendor/
+
+# NPM dependencies
+/node_modules/
+
+# Mix-manifest, hot reload, storage link
+/public/mix-manifest.json
+/public/hot
+/public/storage
+
+# Laravel storage & cache (keep the .gitignore files)
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+
+# Bootstrap cache (keep .gitignore)
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+
+# Environment files
+.env
+.env.*.backup
+
+# PHPUnit cache
+.phpunit.result.cache
+
+# Homestead / Vagrant
+Homestead.yaml
+Homestead.json
+docker-compose.override.yml
+
+# NPM / Yarn debug
+npm-debug.log*
+yarn-error.log*
+
+# IDE files
+/.idea/
+/.vscode/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Optional: ignore built CSS/JS if you prefer to compile on deploy
+# /public/css/
+/public/js/
